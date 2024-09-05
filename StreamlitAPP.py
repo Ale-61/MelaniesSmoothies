@@ -1,10 +1,10 @@
 import pandas as pd
 import altair as alt
 import streamlit as st
-import snowflake.snowpark.functions
+#import snowflake.snowpark.functions
 
 
-from snowflake.snowpark.functions import col
+#from snowflake.snowpark.functions import col
 #pip install snowflake-snowpark-python
 
 # Write directly to the app
