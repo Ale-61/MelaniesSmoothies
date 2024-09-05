@@ -3,6 +3,9 @@ streamlit
 pandas
 altair 
 
+snowflake.snowpark.functions
+
 #python=3.8.*
+#snowflake-snowpark-python
 
 
