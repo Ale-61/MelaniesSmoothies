@@ -2,7 +2,7 @@
 streamlit
 pandas
 altair 
-
+snowflake.snowpark.DataFrameReader
 
 
 #python=3.8.*
