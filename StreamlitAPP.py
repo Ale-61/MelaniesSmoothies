@@ -18,7 +18,14 @@ st.write("The current movie title is", name_order)
 
 #Box fruit option
 
-st.connections.SnowflakeConnection(account = "JHLSWFL-TD25150", type="snowflake")
+st.connections.SnowflakeConnection(account = "JHLSWFL-TD25150",
+user = "Andrea",
+password = "SNOW24gl##$",
+role = "SYSADMIN",
+warehouse = "COMPUTE_WH",
+database = "SMOOTHIES",
+schema = "PUBLIC",
+client_session_keep_alive = true, type="snowflake")
 
 #session = get_active_session()
 cnx = st.connection("snowflake")
