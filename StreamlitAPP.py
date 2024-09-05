@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import altair as alt
-from snowflake.snowpark.functions import col
+#from snowflake.snowpark.functions import col
 
 
 # Write directly to the app
