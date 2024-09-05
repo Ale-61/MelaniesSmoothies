@@ -18,7 +18,7 @@ st.write("The current movie title is", name_order)
 
 #Box fruit option
 
-cnx = st.connections(account = "JHLSWFL-TD25150",
+cnx = st.connection(account = "JHLSWFL-TD25150",
 user = "Andrea",
 password = "SNOW24gl##$",
 role = "SYSADMIN",
