@@ -3,7 +3,7 @@ streamlit
 pandas
 altair 
 
-pip install snowflake-snowpark-python
+
 
 #python=3.8.*
 #snowflake-snowpark-python
