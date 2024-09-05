@@ -5,5 +5,5 @@
 
 
 .venv\Scripts\activate.bat
-.venv\Scripts\Activate.ps1
-source .venv/bin/activate
+pip install streamlit
+
