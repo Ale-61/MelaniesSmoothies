@@ -2,7 +2,7 @@ import pandas as pd
 import altair as alt
 import streamlit as st
 import snowflake
-import snowflake.col
+#import snowflake.col
 #from snowflake.snowpark.functions import col
 #import snowflake.snowpark.functions
 #from snowflake import col
