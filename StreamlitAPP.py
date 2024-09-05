@@ -27,6 +27,9 @@ database = "SMOOTHIES",
 schema = "PUBLIC",
 client_session_keep_alive = "true", type="snowflake", SNOWFLAKE_DEFAULT_CONNECTION_NAME="prueba")
 
+
+
 #session = get_active_session()
+cnx = st.connections.SnowflakeConnection(("snowflake")
 #cnx = st.connection("snowflake")
 session = cnx.sesion()
