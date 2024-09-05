@@ -3,7 +3,7 @@ streamlit
 pandas
 altair 
 snowflake-connector-python
-
+snowflake-snowpark
 
 #python=3.8.*
 #snowflake-snowpark-python
