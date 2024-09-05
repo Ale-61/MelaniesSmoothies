@@ -4,7 +4,7 @@ import streamlit as st
 import snowflake
 #from snowflake.snowpark.functions import col
 #import snowflake.snowpark.functions
-#from snowflake import col
+from snowflake import col
 
 # Write directly to the app
 st.title(":cup_with_straw: Customize your Smoothie! :cup_with_straw:")
