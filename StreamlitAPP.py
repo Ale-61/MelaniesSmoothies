@@ -3,6 +3,7 @@ import altair as alt
 import streamlit as st
 #from snowflake.snowpark.functions import col
 import snowflake.snowpark.functions
+from snowflake.snowpark.functions import col
 
 # Write directly to the app
 st.title(":cup_with_straw: Customize your Smoothie! :cup_with_straw:")
