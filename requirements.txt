@@ -2,3 +2,9 @@
 #python=3.8.*
 #snowflake-snowpark-python=
 #streamlit=
+
+
+python -m venv .venv
+.venv\Scripts\activate.bat
+.venv\Scripts\Activate.ps1
+source .venv/bin/activate
