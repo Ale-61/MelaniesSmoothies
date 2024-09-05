@@ -3,4 +3,4 @@ import pandas as pd
 import altair as alt
 
 
-#st.title('Uber pickups in NYC')
+st.title('Uber pickups in NYC')
