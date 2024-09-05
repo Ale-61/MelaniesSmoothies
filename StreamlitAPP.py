@@ -1,11 +1,7 @@
 import pandas as pd
 import altair as alt
 import streamlit as st
-#import snowflake.snowpark.functions
-import snowflake.snowpark.DataFrameReader as snowflake
 
-#from snowflake.snowpark.functions import col
-#pip install snowflake-snowpark-python
 
 # Write directly to the app
 st.title(":cup_with_straw: Customize your Smoothie! :cup_with_straw:")
