@@ -25,7 +25,7 @@ role = "SYSADMIN",
 warehouse = "COMPUTE_WH",
 database = "SMOOTHIES",
 schema = "PUBLIC",
-client_session_keep_alive = true, type="snowflake")
+client_session_keep_alive = "true", type="snowflake")
 
 #session = get_active_session()
 cnx = st.connection("snowflake")
