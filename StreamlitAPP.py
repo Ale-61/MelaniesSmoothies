@@ -1,7 +1,7 @@
 import pandas as pd
 import altair as alt
 import streamlit as st
-import snowflake.snowpark
+import snowflake
 #import snowflake.col
 #from snowflake.snowpark.functions import col
 #import snowflake.snowpark.functions
@@ -17,6 +17,8 @@ name_order = st.text_input("Name on Smoothie: ")
 st.write("The current movie title is", name_order)
 
 #Box fruit option
+
+st.connections.SnowflakeConnection(account = "JHLSWFL-TD25150", type="snowflake")
 
 #session = get_active_session()
 cnx = st.connection("snowflake")
